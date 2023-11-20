@@ -11,6 +11,6 @@ public class MovePlayerForward : MonoBehaviour
     void Update()
     {
         // move the player forward
-        if (movePlayer) player.transform.position += Vector3.forward * Time.deltaTime * 5;
+        if (movePlayer) player.transform.position += Vector3.forward * Time.deltaTime * 7;
     }
 }
